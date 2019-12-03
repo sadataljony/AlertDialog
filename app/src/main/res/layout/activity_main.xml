@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnSingleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog with Single Button"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnDoubleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog with Double Button"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnListTripleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog with Tripple Button"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnIconOnly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog with Icon"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnTitleOnly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog with Title Only"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnMessageOnly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog with Message Only"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnCustomAlertDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog with Custom Layout"
+        android:textAllCaps="false" />
+
+</LinearLayout>
+
